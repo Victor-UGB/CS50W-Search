@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>Advanced Search</title>
+        <script src="index.js"></script>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <nav class="navbar">
+            <ul>
+                <li> <a href="index.html"> Back Home </a> </li>
+            </ul>
+        </nav>
+        <h3>Advanced Search</h3>
+        <hr/>
+        <div class="form-div">
+            <form class="adv-form" action="https://google.com/search">
+            
+                <span class="advsearch-subhead">Find pages with...</span>
+
+                <div class="input-field-div">
+                    <div class="input-field">
+                        <div class="search-specs">all these words:</div> <div class="search-box"> <input type="text" name="as-q"> </div> <div class="search-hint">Type the important words</div>
+                    </div>
+                    <div class="input-field">
+                        <div class="search-specs">these exact word or phrase:</div> <div class="search-box"> <input type="text" name="as-epq"> </div> <div class="search-hint">Put exact words in quote</div>
+                    </div>
+                    <div class="input-field">
+                        <div class="search-specs">any of these words:</div> <div class="search-box"> <input type="text" name="as-oq"> </div> <div class="search-hint">Type OR between all the words you want</div>
+                    </div>
+                    <div class="input-field">
+                        <div class="search-specs">none of these words:</div> <div class="search-box"> <input type="text" name="as-eq"> </div> <div class="search-hint">Put a minu ssign just before the words you dont want</div>
+                    </div>
+                    <!-- <li>this exact word or phrase: <input type="text" name="as-epq"> </li>
+                    <li>any of these words: <input type="text" name="as-oq"> </li>
+                    <li>none of these words: <input type="text" name="as-eq"> </li> -->
+                </div>
+
+            </div>
+            <div class="button-div">
+            <input class="advsearch-button" type="submit" value="Advanced Search">
+            </div>
+            </form>
+        </div>
+    </body>
+</html>
